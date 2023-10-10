@@ -17,10 +17,6 @@ function adNumero() {
 
     res.add(novoElemento); // Adicionando o novo elemento à lista 
     }
-
-    // Manter a caixa de entrada de valores (fnum) limpa
-    num.value = ''
-    num.focus()
 }
 
 // Define: quantidade de valores; maior e menor valor; soma e média de todos os valores
