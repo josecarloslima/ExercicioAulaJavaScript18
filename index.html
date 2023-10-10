@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 18</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+
+    </header>
+    <section id="sec">
+        <div>
+            <p>Digite um número entre 1 e 100: 
+                <input type="number" name="numeroDigitado" id="ndigit">
+                <input type="button" name="btnAdicionar" id="btnadnum" value="Adicionar" onclick="adNumero()"></p>
+        </div>
+        <div>
+            <select name="numerosInseridos" id="numins" size="10">
+                <option>Valores Inseridos</option>
+            </select><br>
+            <input type="button" name="btnFinalizar" id="btnfinal" value="Analizar" onclick="finalizar()"><button onclick="limparTudo()">Limpar</button>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; José Carlos Lima</p>
+
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
